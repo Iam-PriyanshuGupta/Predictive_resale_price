@@ -7,7 +7,7 @@ from prophet.plot import plot_plotly
 # ========================
 # Load dataset / model
 # ========================
-df = pd.read_csv('data/your_dataset.csv')
+df = pd.read_csv('data/autoscout24-germany-dataset.csv')
 xgb_model = joblib.load('model/xgb_pipeline.pkl')  # previously saved pipeline
 
 # ========================
